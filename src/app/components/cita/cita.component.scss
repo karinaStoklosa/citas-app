@@ -1,0 +1,30 @@
+
+.cita {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+}
+
+.contenido-cita {
+  flex: 1;
+}
+
+.frase {
+  margin: 0;
+  font-size: 16px;
+}
+
+.autor {
+  margin-top: 8px;
+  text-align: right;
+  font-size: 14px;
+}
+
+.boton-eliminar {
+  margin-left: 15px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+

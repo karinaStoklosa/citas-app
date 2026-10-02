@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Citas</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <h1>Mi aplicación de citas</h1>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title>Cita del momento</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <p>
+        "{{ frase }}"
+      </p>
+
+      <p>
+        <strong>{{ autor }}</strong>
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-button expand="block" (click)="irAGestionCitas()">
+    Gestionar citas
+  </ion-button>
+
+  <ion-button expand="block" fill="outline" (click)="irAConfiguracion()">
+    Configuración
+  </ion-button>
+
+</ion-content>
